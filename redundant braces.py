@@ -14,6 +14,7 @@ def solution(A):
             else:
                 while store[-1]!="(":
                     store.pop()
+            store.pop()
 
     return 0
 
